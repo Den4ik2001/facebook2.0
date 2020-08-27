@@ -1,6 +1,10 @@
-$(document).ready(function() {
-    $('.header__burger').click(function(event) {
-        $('.header__burger,.hrader__menu,.last-child ').toggleClass('active');
-        $('body').toggleClass('look');
-    });
-});
+let burger_menu = document.querySelector(".burger-menu");
+
+function burg() {
+	if (burger_menu.style.display === 'none') {
+		burger_menu.style.display = 'block';
+	}
+	else {
+		burger_menu.style.display = 'none';
+	}
+}
