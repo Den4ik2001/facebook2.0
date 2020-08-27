@@ -91,7 +91,7 @@ nav ul li {
 	display: none;
 }
 
-@media screen and (max-width: 1130px) {
+@media(max-width: 1130px){
 	header h1 {
 		font-size: 20px;
 	}
@@ -100,7 +100,7 @@ nav ul li {
 	}
 }
 
-@media screen and (max-width: 630px) {
+@media(max-width: 630px){
 	.burger-menu-logic {
 		display: block;
 	}
