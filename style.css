@@ -3,7 +3,7 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: sans-serif;
 }
 
 header {
@@ -47,7 +47,7 @@ nav ul li {
 
 
 .burger-menu-logic p {
-	padding: 3px;
+	padding: 5px 15px;
 	font-size: 25px;
 }
 
@@ -58,7 +58,7 @@ nav ul li {
 
 .burger-menu li {
 	list-style-type: none;
-	padding: 5px;
+	padding: 10px;
 	width: auto;
 	font-size: 25px;
 }
