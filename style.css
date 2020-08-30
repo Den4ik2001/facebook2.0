@@ -15,7 +15,7 @@ header {
 
 header h1 {
 	color: white;
-	font-size: 30px;
+	font-size: 32px;
 	padding: 20px 0px 20px 0px;
 }
 
@@ -30,7 +30,7 @@ nav ul li a {
 
 nav ul li {
 	margin: 0px 16px;
-	font-size: 18px;
+	font-size: 20px;
 
 }
 
@@ -46,11 +46,9 @@ nav ul li {
 }
 
 
-
-
-
 .burger-menu-logic p {
 	padding: 3px;
+	font-size: 25px;
 }
 
 .burger-menu {
@@ -62,6 +60,7 @@ nav ul li {
 	list-style-type: none;
 	padding: 5px;
 	width: auto;
+	font-size: 25px;
 }
 
 .burger-menu li:hover {
@@ -88,16 +87,8 @@ nav ul li {
 	display: none;
 }
 
-@media only screen and (max-device-width: 1130px) {
-	header h1 {
-		font-size: 20px;
-	}
-	nav ul li {
-		font-size: 15px;
-	}
-}
 
-@media only screen and (max-device-width: 630px) {
+@media only screen and (max-device-width: 800px) {
 	.burger-menu-logic {
 		display: block;
 	}
@@ -107,6 +98,30 @@ nav ul li {
 	header h1 {
 		display: flex;
 		margin: 0 auto;
-		font-size: 30px;
+		font-size: 32px;
 	}
+}
+
+@media only screen and (max-device-width: 600px) {
+	header h1 {
+		font-size: 40px;
+	}
+	.burger-menu li {
+	font-size: 30px;
+}
+.burger-menu-logic p {
+	font-size: 30px;
+}
+}
+
+@media only screen and (max-device-width: 450px) {
+	header h1 {
+		font-size: 55px;
+	}
+	.burger-menu li {
+	font-size: 40px;
+}
+.burger-menu-logic p {
+	font-size: 40px;
+}
 }
