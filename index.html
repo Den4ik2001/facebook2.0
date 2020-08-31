@@ -4,29 +4,68 @@
 	<meta charset="UTF-8">
 	<title>Nauka języka polskiego</title>
 	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<h1>Nauka języka <span>polskiego</span></h1>
 		<nav>
 			<ul class="menu">
-				<li><a href="#">Główna</a></li>
-				<li><a href="#">Tłumacz</a></li>
-				<li><a href="#">Nauka języka</a></li>
-				<li><a href="#">Aktualności</a></li>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Обучения онлайн языка</a></li>
+				<li><a href="#">История</a></li>
+				<li><a href="#">Переводчик</a></li>
+				<li><a href="#">Новости</a></li>
 			</ul>
 		</nav>
 	</header>
 	<nav class="burger-menu-logic">
 		<p id="check-burger" onclick="burg()">&#9776;</p>
 		<ul class="burger-menu">
-			<li><a href="#">Główna</a></li>
-			<li><a href="#">Tłumacz</a></li>
-			<li><a href="#">Nauka języka</a></li>
-			<li><a href="#">Aktualności</a></li>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Обучения онлайн языка</a></li>
+			<li><a href="#">История</a></li>
+			<li><a href="#">Переводчик</a></li>
+			<li><a href="#">Новости</a></li>
 		</ul>
 	</nav>
+	<main>
+		<div class="podShapka">
+			<h1>Изучения онлайн Польского языка</h1>
+			<h2>На нашем сайте Вы можете изучить Польский язык и историю Польши</h2>
+		</div>
+		<section class="Infa">
+				<h2>Почему мы?</h2>
+				<p>У нас бесплатное онлайн обучения. С нами Вы выучите более 10000 слов, грамматики на уровень B2, историю Польши. На нашем сайте есть так же свежие новости Польши.</p>
+				<input type="button" name="EnterUJ" value="Начать обучения" class="inputInfa">
+		</section>
+		<section class="perevodchik">
+			<h2>Русско-польский переводчик</h2>
+			<div class="containerTexterea">
+				<div class="textarea1">
+					<select name="" id="">
+						<option value="Русский">Русский</option>
+						<option value="Польский">Польский</option>
+					</select>
+					<br>
+					<textarea></textarea>
+				</div>
+				<p>&harr;</p>
+				<div class="textarea2">
+					<select name="" id="">
+						<option value="Польский">Польский</option>
+						<option value="Русский">Русский</option>
+					</select>
+					<br>
+					<textarea></textarea>
+				</div>
+			</div>
+			<input type="button" name="Perevesti" value="Перевести" class="inputInfa">
+		</section>
+	</main>
+	<footer>
+		<p>&#169;2020 Denis Stelmakh</p>
+	</footer>
 	<script src="script.js"></script>
 </body>
 </html>

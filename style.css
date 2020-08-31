@@ -10,13 +10,15 @@ header {
 	background-color: #0C3C60;
 	display: flex;
 	justify-content: space-around;
+	position: fixed;
+	width: 100%;
 }
 
 
 header h1 {
 	color: white;
-	font-size: 32px;
-	padding: 20px 0px 20px 0px;
+	font-size: 27px;
+	padding: 20px 0px 20px 20px;
 }
 
 header h1 span {
@@ -30,7 +32,7 @@ nav ul li a {
 
 nav ul li {
 	margin: 0px 16px;
-	font-size: 20px;
+	font-size: 16px;
 
 }
 
@@ -60,7 +62,7 @@ nav ul li {
 	list-style-type: none;
 	padding: 10px;
 	width: auto;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .burger-menu li:hover {
@@ -88,12 +90,162 @@ nav ul li {
 }
 
 
+
+.podShapka{
+	background-size: 125%;
+	background-image: url(image/PodShapka5.jpg);
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+
+.podShapka h1 {
+	color: white;
+	font-size: 52px;
+	text-shadow: black 0 0 10px;
+	text-align: center;
+	padding-top: 22%;
+}
+
+.podShapka h2 {
+	color: white;
+	font-size: 25px;
+	text-shadow: black 0 0 10px;
+	text-align: center;
+	padding-bottom: 21%;
+}
+
+.Infa {
+	width: 100%;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background-color: #3ECCB5;
+	padding-bottom: 10px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;2
+}
+
+.Infa h2 {
+	text-align: center;
+	font-size: 40px;
+	margin: 0px;
+	color: white;
+	font-family: 'Times New Roman';
+	text-shadow: black 0 0 2px;
+}
+
+.Infa p {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	width: 50%;
+	display: block;
+	margin: 10px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.inputInfa {
+	display: block;
+	margin: 0px auto;
+	width: 200px;
+	height: 40px;
+	background-color: #41B7C4;
+	border: 1px solid #377DBD;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.inputInfa:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+.perevodchik {
+	width: auto;
+	height: 320px;
+	background-color: #0C3C60;
+}
+
+.perevodchik h2 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 10px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.containerTexterea {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	padding: 10px 0px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.textarea1 {
+	width: 50%;
+	height: 200px;
+	margin-right: 5px;
+}
+
+.textarea2 {
+	width: 50%;
+	height: 200px;
+	margin-left: 5px;
+}
+
+.containerTexterea p {
+	font-size: 20px;
+	color: white;
+	height: 10px;
+}
+
+.containerTexterea p:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+.textarea1 textarea {
+	width: 99%;
+	height: 88%;
+}
+
+.textarea2 textarea {
+	width: 99%;
+	height: 88%;
+}
+
+.textarea1 select {
+	width: 120px;
+}
+
+.textarea2 select {
+	width: 120px;
+}
+
+footer {
+	background-color: #333B50;
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
 @media only screen and (max-device-width: 800px) {
 	.burger-menu-logic {
 		display: block;
 	}
 	.menu {
 		display: none;
+	}
+	header {
+		position: relative;
 	}
 	header h1 {
 		display: flex;
@@ -119,7 +271,7 @@ nav ul li {
 		font-size: 55px;
 	}
 	.burger-menu li {
-	font-size: 40px;
+	font-size: 35px;
 }
 .burger-menu-logic p {
 	font-size: 40px;
